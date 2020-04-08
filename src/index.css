@@ -95,6 +95,11 @@ input[type="submit"] {
   border-radius: 3px;
 }
 
+.sub-title {
+  color: rgb(72, 130, 255);
+  font-weight: bold;
+}
+
 /*  ------CATEGORIES------  */
 
 .categories-grid {

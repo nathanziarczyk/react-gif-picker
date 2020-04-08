@@ -27,15 +27,18 @@ export default class Gifs extends React.Component {
     };
 
     return (
-      <Masonry
-        breakpointCols={breakpointColumnsObj}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
-      >
-        {this.props.gifs.map((gif) => {
-          return <Gif key={uuid()} gif={gif} />;
-        })}
-      </Masonry>
+      <>
+        <small className="sub-title">click GIF to copy link to clipboard</small>
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column"
+        >
+          {this.props.gifs.map((gif) => {
+            return <Gif key={uuid()} gif={gif} />;
+          })}
+        </Masonry>
+      </>
     );
   }
 }

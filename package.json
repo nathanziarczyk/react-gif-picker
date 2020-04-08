@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "surge /Users/nathan/Documents/SyntraDev/JavaScript/React/gif-picker/build nathan-gif-picker.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
