@@ -150,6 +150,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <h1>{process.env.REACT_APP_FOO}</h1>
         <Searchfield
           searchGif={this.searchGif}
           getSearchSuggestions={this.getSearchSuggestions}
